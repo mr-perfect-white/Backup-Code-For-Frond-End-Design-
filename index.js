@@ -1,4 +1,6 @@
 
+// On Clicking the a tag  button it is not redirect to exactly that id section use this code to fix it
+
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -14,3 +16,4 @@
   });
 });
 
+// End Code here
